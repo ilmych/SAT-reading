@@ -1,9 +1,12 @@
 # SAT-reading
- Code & files for SAT reading
+Getting the articles and questions from AE studio's database
 
-Developing the QC system for SAT reading.
+Requirements:
+- A list of AE studio external IDs
 
-Includes:
-- Prompts
-- API calls to pull questions from AE studio
+Outputs:
+- Full article text
+- Each question, including guiding questions
+- Each correct answer
+- Each distractor
 ...
