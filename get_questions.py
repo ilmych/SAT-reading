@@ -6,7 +6,7 @@ BASE_URL = 'https://alpha-content-api-production-28c7519a08f9.herokuapp.com/arti
 API_KEY = 'AE Studio API Key' # Edit with your API key
 
 # Load the CSV file with article IDs
-df = pd.read_csv('path_to_file.csv')  # Edit with the exact file path
+df = pd.read_csv('path_to_file.csv')  # Edit with the exact file path that includes a list of AE studio IDs 
 
 # Call the fetch_article endpoint
 def get_article_data(article_id):
