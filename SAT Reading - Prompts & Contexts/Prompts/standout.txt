@@ -20,7 +20,7 @@ Distractors:
 Analyze the structure of the correct answer and the distractors. Look for patterns such as:
 1. Positive vs. negative phrasing
 2. Starting phrases
-3. Sentence structure and length
+3. Sentence structure
 4. Use of specific grammatical elements (e.g., passive voice, conditional statements)
 
 Determine if the correct answer stands out structurally from the distractors. The correct answer is considered uniquely structured if it differs significantly in its construction while all distractors follow a similar pattern.
