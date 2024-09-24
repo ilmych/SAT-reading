@@ -25,12 +25,13 @@ Carefully analyze the question, the correct answer, and the distractors in relat
 To determine if there's only one objectively correct answer:
 1. Check if the correct answer is fully supported by the passage.
 2. Examine each distractor to ensure it is incorrect based on the passage.
+3. Compare the distractors to the correct answer based on how well they're supported by the passage.
 
-Provide your reasoning for why there is only one objectively correct answer or why there might be more than one. Include specific references to the passage, question, correct answer, and distractors in your reasoning.
+Provide your reasoning for why there is only one objectively correct answer or why there might be more than one or why there are none. Include specific references to the passage, question, correct answer, and distractors in your reasoning.
 
 Based on your analysis:
 - If there is only one objectively correct answer, assign a score of 1.
-- If there is a possibility of more than one correct answer or if the correct answer is not fully supported by the passage, assign a score of 0.
+- If there is an objective possibility of more than one correct answer or if the correct answer is not fully supported by the passage, assign a score of 0.
 
 Examples:
 <examples>
