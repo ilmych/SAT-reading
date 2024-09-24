@@ -1,0 +1,48 @@
+You will be given a question about a passage, the correct answer to the question, and a list of distractors (incorrect options). Your task is to determine whether the correct answer is the only differently structured option compared to the distractors.
+
+Here are the inputs:
+
+Question:
+<question>
+{question}
+</question>
+
+Correct Answer:
+<correct_answer>
+{correct_answer}
+</correct_answer>
+
+Distractors:
+<distractors>
+{distractors}
+</distractors>
+
+Analyze the structure of the correct answer and the distractors. Look for patterns such as:
+1. Positive vs. negative phrasing
+2. Starting phrases
+3. Sentence structure and length
+4. Use of specific grammatical elements (e.g., passive voice, conditional statements)
+
+Determine if the correct answer stands out structurally from the distractors. The correct answer is considered uniquely structured if it differs significantly in its construction while all distractors follow a similar pattern.
+
+Pay special attention to questions that test students' use of punctuation and grammatical structures. As long as the correct answer is similar to the distractors in content, but with different punctuation symbols, the correct answer is *not* considered uniquely structured.
+
+In your analysis, provide clear reasoning for your determination. Explain the structural similarities among the distractors and how the correct answer differs, if applicable.
+
+Based on your analysis:
+- If the correct answer is the only differently structured option, assign a score of 0.
+- If the correct answer is not uniquely structured compared to the distractors, assign a score of 1.
+
+Examples:
+<examples>
+{examples}
+</examples>
+
+Output your response in strict JSON format as follows:
+
+  "reasoning": "Your detailed explanation here",
+  "score": 0 or 1
+
+
+
+Ensure that your JSON is properly formatted and contains only the "reasoning" and "score" fields.

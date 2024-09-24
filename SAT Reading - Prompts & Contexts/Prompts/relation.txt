@@ -1,0 +1,29 @@
+You will be given a passage and a question. Your task is to determine whether the question is related to the content of the passage.
+
+The passage:
+<passage>
+{passage}
+</passage>
+
+The question:
+<question>
+{question}
+</question>
+
+1. Analyze the relevance of the question to the passage:
+   - Identify the main topics, entities, or concepts mentioned in the passage.
+   - Compare these to the content of the question.
+   - Determine if the question can be answered using information from the passage or if it's closely related to the passage's subject matter. If yes, give it a score of 1.
+   - If the question is only tangentially related or completely unrelated, give it a score of 0.
+
+2. Provide your analysis and decision in the following JSON format:
+
+     "score": 0 or 1,
+     "reasoning": "Your explanation here",
+
+
+   Where:
+   - "score" is 1 if the question is related to the passage, 0 if it's not.
+   - "explanation" is a brief justification for your decision.
+
+Ensure that your output is valid JSON. Remember to enclose your entire JSON output within <answer> tags.

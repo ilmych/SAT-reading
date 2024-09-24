@@ -1,0 +1,51 @@
+You will be given a passage, a question about that passage, and a distractor (an incorrect multiple choice option). Your task is to determine whether the distractor can be eliminated without reading the passage carefully. If it's so obviously wrong that you can just skim the passage to eliminate it, give it a score of 0. If you need to read the whole passage carefully to determine if it's incorrect, give it a score of 1.
+
+Here are examples or how to do it for context:
+<examples>
+{examples}
+</examples>
+
+Here is the passage:
+<passage>
+{passage}
+</passage>
+
+
+Here is the question:
+<question>
+{question}
+</question>
+
+
+Here is the distractor:
+<distractor>
+{distractor}
+</distractor>
+
+
+Analyze the full text of the distractor and the question. Consider the following:
+1. Is the distractor unrelated to the topic of the question? (i.e., the question is about tone, the distractor is about symbolism) If yes, fail it immediately.
+2. Can the distractor be reasonably eliminated by reading the only the question or skimming the passage? (i.e., the question includes a word with specific connotation that can lead to eliminating the distractor with the opposite connotation) If yes, fail it immediately.
+3. Does the distractor contradict a statement made in the question text? (i.e., the question states that something is different, the distractor maintains it's the same) If yes, fail it immediately.
+4. Does the distractor contain obvious factual errors or absurdities? (i.e., the passage and question are about how fish move, but the distractor maintains they fly) If yes, fail it immediately.
+5. Is the distractor grammatically or logically inconsistent with the question? (i.e., the question asks for two main ideas, the distractor provides only one) If yes, fail it immediately.
+
+
+Provide your reasoning for why the distractor can or cannot be eliminated without reading the passage. Consider the points above and any other relevant factors.
+
+
+Based on your analysis, assign a score:
+- Score 0 if the distractor can be eliminated without carefully reading the passage
+- Score 1 if you need to read the passage carefully to determine if it's incorrect
+
+
+Output your response in strict JSON format with two keys: "reasoning" and "score". The "reasoning" should be a string explaining your thought process, and the "score" should be an integer (0 or 1).
+
+
+For example:
+<answer>
+{{"score": 0, "reasoning": "The distractor mentions aliens, which is completely unrelated to a question about historical events. It can be eliminated without reading the passage."}}
+</answer>
+
+
+Provide your answer in strict JSON format as shown in the example above.

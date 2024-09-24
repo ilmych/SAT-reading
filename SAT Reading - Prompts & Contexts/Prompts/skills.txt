@@ -1,0 +1,38 @@
+You will be given a passage, a question about the passage, its domain, correct answer, and a list of distractors. Your task is to determine which SAT skill this question is testing.
+
+The passage:
+<passage>
+{passage}
+</passage>
+
+Here is the question to be analyzed, along with its metadata, correct answer, and distractors:
+
+<question>
+{question}
+</question>
+
+<domain>
+{domain}
+</domain>
+
+<correct_answer>
+{correct_answer}
+</correct_answer>
+
+<distractors>
+{distractors}
+</distractors>
+
+Context of SAT skills:
+{context}
+
+To determine the SAT skill being tested, follow these steps:
+1. Carefully read the question and compare it against each of the SAT skills in the context.
+2. Determine which SAT skill best matches the given question. Consider the structure and wording of the question.
+3. If the question doesn't strictly match any of the provided skills, you should map it 'null'.
+4. Provide your output in a strict JSON format as follows:
+{{
+ "skill_code": "Code of the selected skill from context",
+ "reasoning": "A brief explanation of why you chose this skill"
+}}
+5. Ensure your JSON output is properly formatted and contains only the specified fields.

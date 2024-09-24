@@ -1,0 +1,43 @@
+[{
+"Q":{
+"question" : "Which choice best states the main idea of the text?",
+"correct_answer" : "The Aspera mission is expected to produce the first direct observations of CGM gas in the “warm-hot” phase, which likely has an important role in the evolution of galaxies.",
+"distractors" : ["As the leader of NASA’s Aspera mission, Vargas will be the first person to investigate the makeup of the CGM.", "Although galaxies that are surrounded by the CGM have been studied, researchers have been unable to directly observe low-density gas in the CGM in the “warm-hot” phase.", "Researchers don’t yet have a complete understanding of the process of galaxy evolution but have raised the possibility that galaxies interact with each other at times."]},
+"A":
+{"score": 1, "reasoning": "After analyzing the structure of the correct answer and the distractors, I've determined that the correct answer is not uniquely structured compared to the distractors. Here's why: Sentence structure: All options, including the correct answer, are complex sentences with a main clause and additional information. Length: The correct answer and distractors are all of similar length, ranging from one to two lines. Starting phrases: There's no consistent pattern in starting phrases that distinguishes the correct answer from the distractors. Content structure: All options, including the correct answer, present a statement about research or a mission related to galaxies or the CGM. Tense usage: The correct answer and distractors all use present tense verbs (is expected, will be, have been, don't yet have). Specificity: Both the correct answer and the distractors mention specific concepts or entities (e.g., Aspera mission, CGM, warm-hot phase, galaxy evolution). While there are minor differences in the specific content and focus of each option, the overall structural patterns are consistent across all choices, including the correct answer. Therefore, the correct answer does not stand out structurally from the distractors."}},
+{
+"Q":{
+"question" : "Based on the text, what is the significance of the item Martha takes out in the bathroom?",
+"correct_answer" : "It represents strong emotional ties to her history, likely involving a child and a man who are important to her.",
+"distractors" : ["It is a reminder of a place she once visited that holds sentimental value.", "It is a memento from her childhood that brings back memories of her family.", "It is a keepsake from a deceased loved one that she misses dearly."]},
+"A":
+{"score": 0, "reasoning": "The correct answer is uniquely structured compared to the distractors. While all three distractors follow a similar pattern of starting with 'It is a' followed by a noun and a relative clause, the correct answer has a different structure. It begins with 'It represents' and includes more complex elements such as 'strong emotional ties' and 'likely involving.' The correct answer also mentions multiple people ('a child and a man') and their importance to the subject, whereas the distractors each focus on a single item or person. Therefore, the correct answer stands out structurally from the more simplistic and similarly constructed distractors."}},
+{
+"Q":{
+"question" : "Based on the author's perspective in the text, the author suggests that mankind must ______. Which choice most logically completes the text?",
+"correct_answer" : "ensure peace",
+"distractors" : ["remember the victims of war", "develop a new vocabulary", "protest against injustice"]},
+"A":
+{"score": 0, "reasoning": "The correct answer 'ensure peace' is structurally different from the distractors in several ways: 1. Length: The correct answer is significantly shorter (two words) compared to the distractors, which are all longer phrases or clauses. 2. Verb usage: The correct answer starts with a verb in the infinitive form ('ensure'), while none of the distractors begin with a verb. They all start with different parts of speech (noun, verb, or preposition). 3. Sentence structure: The correct answer is a simple verb phrase, while the distractors are more complex structures. 'Remember the victims of war' is a full clause, 'develop a new vocabulary' is a verb phrase with an object and modifier, and 'protest against injustice' is a verb phrase with a prepositional phrase. 4. Specificity: The correct answer is more general and abstract, while the distractors refer to more specific actions or concepts (victims, vocabulary, injustice). 5. Thematic focus: While all options relate to social or political concepts, the correct answer is the only one directly addressing a positive outcome (peace) rather than a response to a negative situation. These structural differences make the correct answer stand out from the distractors, which share more similarities with each other in terms of length, complexity, and overall construction."}},
+{
+"Q":{
+"question" : "What does the text most strongly suggest about the implications of the United Nations' renewed focus?",
+"correct_answer" : "A deeper commitment to human dignity.",
+"distractors" : ["A stronger focus on economic development.", "A heightened focus on global security.", "An increased emphasis on international cooperation."]},
+"A":
+{"score": 1, "reasoning": "After analyzing the structure of the correct answer and the distractors, I've determined that the correct answer is not uniquely structured compared to the distractors. Here's why: n1. Sentence structure: All options, including the correct answer, are noun phrases starting with an article ('A' or 'An'). 2. Length: All options are of similar length, consisting of 4-6 words. 3. Content structure: Each option presents a specific focus or emphasis, using an adjective followed by a noun and then another descriptive word or phrase. 4. Starting phrases: All options begin with 'A' or 'An', followed by an adjective. 5. Parallel construction: Each option follows the pattern of [Article + Adjective + Noun + Prepositional Phrase or Adjective]. The correct answer ('A deeper commitment to human dignity') follows the same structural pattern as the distractors. It doesn't stand out in terms of its grammatical construction or overall format. While the content differs, the structural similarities are consistent across all options, including the correct answer. Therefore, the correct answer is not uniquely structured compared to the distractors."}},
+{
+"Q":{
+"question" : "The Declaration of the Rights of the Child emphasizes the importance of providing children with ______ due to their physical and mental immaturity. Which choice completes the sentence with the most logical and precise word or phrase?",
+"correct_answer" : "protection",
+"distractors" : ["nutrition", "education", "freedom"]},
+"A":
+{"score": 1, "reasoning": "After analyzing the correct answer and the distractors, I've determined that there is no significant structural difference between them. All options, including the correct answer 'protection' and the distractors 'nutrition', 'education', and 'freedom', are single-word nouns. They all follow the same grammatical structure and can fit into the sentence in the same way. There are no differences in phrasing, starting phrases, sentence structure, length, or specific grammatical elements. All options are equally concise and serve as direct objects in the given sentence. The correct answer does not stand out structurally from the distractors; it merely differs in meaning, which is not a structural consideration."}},
+{
+"Q":{
+"question" : "Which choice best states the main idea of the text?",
+"correct_answer" : "Memory and forgetting are both necessary, but the duty to remember is paramount.",
+"distractors" : ["Memory is the most important tool for preventing future atrocities.", "Forgetting is essential to move on from past traumas.", "Hope is essential for overcoming despair and rebuilding after trauma."]},
+"A":
+{"score": 0, "reasoning": "The correct answer is uniquely structured compared to the distractors. While all three distractors follow a similar pattern of stating a single idea or concept followed by a brief explanation ('X is Y for Z'), the correct answer presents a contrasting relationship between two concepts (memory and forgetting) and asserts the importance of one over the other using the conjunction 'but'. The correct answer also differs in its use of the phrase 'duty to remember', which adds a sense of obligation not present in the distractors. Furthermore, the correct answer is the only option that mentions both memory and forgetting, while the distractors each focus on a single concept."}}
+]

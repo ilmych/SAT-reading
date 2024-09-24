@@ -1,0 +1,47 @@
+You will be given a passage, a question about the passage, the correct answer, and a list of distractors (incorrect options). Your task is to determine whether there is only one objectively correct answer based on the information provided in the passage.
+
+Here is the passage:
+<passage>
+{passage}
+</passage>
+
+Here is the question:
+<question>
+{question}
+</question>
+
+Here is the correct answer:
+<correct_answer>
+{correct_answer}
+</correct_answer>
+
+Here is the list of distractors:
+<distractors>
+{distractors}
+</distractors>
+
+Carefully analyze the question, the correct answer, and the distractors in relation to the information provided in the passage. Consider whether the correct answer is the only option that accurately responds to the question based solely on the information in the passage.
+
+To determine if there's only one objectively correct answer:
+1. Check if the correct answer is fully supported by the passage.
+2. Examine each distractor to ensure it is incorrect based on the passage.
+
+Provide your reasoning for why there is only one objectively correct answer or why there might be more than one. Include specific references to the passage, question, correct answer, and distractors in your reasoning.
+
+Based on your analysis:
+- If there is only one objectively correct answer, assign a score of 1.
+- If there is a possibility of more than one correct answer or if the correct answer is not fully supported by the passage, assign a score of 0.
+
+Examples:
+<examples>
+{examples}
+</examples>
+
+Output your response in strict JSON format with the following structure:
+<answer>
+{{
+  "score": 0 or 1,
+  "reasoning": "Your detailed reasoning here"
+}}
+</answer>
+Ensure that your JSON is valid and properly formatted, making sure you're enclosing it with <answer> tags.

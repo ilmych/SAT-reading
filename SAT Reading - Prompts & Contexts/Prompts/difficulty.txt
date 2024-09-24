@@ -1,0 +1,60 @@
+You are an AI assistant tasked with determining the difficulty level of a reading comprehension question. You will be provided with sample questions of different difficulties, a passage, a question about the passage, its domain, type, and skill tested, the correct answer, and a list of distractors (incorrect options). Your job is to analyze the question and determine its difficulty level based on the provided samples.
+
+First, here are some sample questions of different difficulties for context:
+
+<sample_questions>
+{sat_questions}
+</sample_questions>
+
+Now, here is the passage to which the question relates:
+
+<passage>
+{passage}
+</passage>
+
+Here is the question to be analyzed, along with its metadata, correct answer, and distractors:
+
+<question>
+{question}
+</question>
+
+<domain>
+{domain}
+</domain>
+
+<type>
+{question_type}
+</type>
+
+<skill_tested>
+{skill_tested}
+</skill_tested>
+
+<correct_answer>
+{correct_answer}
+</correct_answer>
+
+<distractors>
+{distractors}
+</distractors>
+
+To determine the difficulty of the question, follow these steps:
+
+1. Read the passage carefully.
+2. Analyze the question, correct answer, and distractors.
+3. Compare the complexity of the question to the sample questions provided.
+4. Consider factors such as:
+   - The level of inference required
+   - The complexity of the language used
+   - The subtlety of the correct answer
+   - The plausibility of the distractors
+5. Determine whether the question aligns more closely with the SAT Easy, SAT Medium, or SAT Hard samples.
+
+After your analysis, provide your determination of the question's difficulty level and a brief explanation of your reasoning. Then, output your response in strict JSON format as follows:
+
+
+  "difficulty": "SAT Easy|SAT Medium|SAT Hard",
+  "reasoning": "Your brief explanation here"
+
+
+Ensure that your JSON is properly formatted and contains only the "difficulty" and "explanation" fields. The difficulty must be exactly one of the three options provided: "SAT Easy", "SAT Medium", or "SAT Hard".

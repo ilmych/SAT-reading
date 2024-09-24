@@ -1,0 +1,50 @@
+You will be given a passage, a question about the passage, the correct answer, and a distractor (incorrect multiple-choice option). Your task is to determine whether the distractor is plausible and effective.
+
+The passage:
+<passage>
+{passage}
+</passage>
+
+The question:
+<question>
+{question}
+</question>
+
+The correct answer:
+<correct_answer>
+{correct_answer}
+</correct_answer>
+
+The distractors:
+<distractors>
+{distractors}
+</distractors>
+
+First, carefully read and analyze the passage and the question.
+
+Next, consider the criteria for good distractors:
+
+1. Increase complexity: Offer plausible misinterpretations which are ultimately unrelated additional aspects.
+2. Introduce plausibility: Align with general knowledge, but plausibly extend on information from the passage.
+3. Diversify focus: Focus on different passage elements to require full comprehension.
+
+For each distractor, evaluate whether it fully meets at least one of the above criteria. If it does, consider it a good distractor and assign it a score of 1. If it doesn't meet any of the criteria, assign it a score of 0.
+
+Finally, provide an overall score for the entire set of distractors. If at least two out of three (2/3) distractors have a score of 1, the overall score should be 1. If more than one distractor has a score of 0, the overall score should be 0.
+
+Output your response in strict JSON format with two keys: "reasoning" and "score". The "reasoning" should be a string explaining your thought process, and the "score" should be an integer (0 or 1).
+
+Examples:
+<examples>
+{{examples}}
+</examples>
+
+For example:
+<answer>
+{{
+  "reasoning": "The distractor mentions aliens, which is completely unrelated to a question about historical events. It can be eliminated without reading the passage.",
+  "score": 0
+}}
+</answer>
+
+Provide your answer in strict JSON format as shown in the example above.

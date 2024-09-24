@@ -1,0 +1,39 @@
+You will be given a question about a reading passage, the correct answer to the question, and a list of distractors (incorrect options). Your task is to determine whether there are two or more options (including the correct answer and distractors) that are exactly the same or can be paraphrased to mean exactly the same thing.
+
+Here are the inputs:
+
+Question:
+<question>
+{question}
+</question>
+
+Correct Answer:
+<correct_answer>
+{correct_answer}
+</correct_answer>
+
+Distractors:
+<distractors>
+{distractors}
+</distractors>
+
+Carefully analyze all options (the correct answer and all distractors) for similarity. Two options are considered similar if:
+1. They are exactly the same word-for-word, or
+2. They can be paraphrased to mean exactly the same thing, even if the wording is different.
+
+Provide your reasoning for why the options are or are not similar inside the reasoning key. Be specific about which options you're comparing and why you consider them similar or different.
+
+After your analysis, provide a score based on the following criteria:
+- If there are two or more options that are exactly the same or can be paraphrased to mean exactly the same thing, give a score of 0.
+- If all options are distinct in meaning, give a score of 1.
+
+Provide your score inside the score key as an integer.
+
+Your entire output should be in strict JSON format. Here's an example of the expected output format:
+
+{{
+   "score": 0 or 1,
+   "reasoning": "Your reasoning here"
+}}
+
+Ensure that your JSON is valid and properly formatted.

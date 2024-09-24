@@ -1,0 +1,41 @@
+You will be given a passage, a question about that passage, and a list of question types and domains. Your task is to determine which type of question it is, or reject it if it doesn't match any of the types provided.
+The passage:
+<passage>
+{passage}
+</passage>
+The question:
+<question>
+{question}
+</question>
+The list of question type templates and examples:
+<question_types>
+{examples}
+</question_types>
+To complete this task:
+1. Carefully read the question and compare it against each of the question type templates in the list.
+2. Determine which question type strictly matches the given question. Consider the structure and wording of the question.
+2a. The domains and their matching question types are:
+- Information and Ideas: Central Ideas and Details; Command of Evidence Textual; Command of Evidence Quantitative; Inferences
+- Craft and Structure: Words in Context; Text Structure and Purpose; Cross-Text Connections
+- Expression of Ideas: Transitions; Rhetorical Synthesis
+- Standard English Conventions: Boundaries Between Sentences; Boundaries Within Sentences; Form, Structure, and Sense
+2b. Remember that whenever a question or passage mentions Text 1 and Text 2, the question is always Cross-Text Connections, even if it doesn't strictly follow the template.
+2c. Remember to watch for the difference between 'main idea' and 'main purpose', as those are two different types of questions. 'Main idea' is Central Ideas and Details, and 'main purpose' is Text Structure and Purpose.
+3. If the question doesn't strictly match any of the provided templates, you should give it a score of 0.
+4. Perform a self-validation check by redoing the work and then judging which of your answers is a better fit.
+5. Provide your output in a strict JSON format as follows:
+- If you found a matching question type:
+{{
+"domain": "[insert matched domain here]",
+"question_type": "[insert matched type here]",
+"score": 1,
+"reasoning": "Brief explanation of why the question fits that template with examples"
+}}
+- If you rejected the question:
+{{
+"domain": null,
+"question_type": null,
+"score": 0,
+"reasoning": "Brief explanation of why the question doesn’t fit any template"
+}}
+5. Ensure your JSON output is properly formatted and contains only the specified fields.
